@@ -1,12 +1,9 @@
 All the resources are created in "us-east-1" region.
 Please create these resources with exact same names.
 
-AWS Credentials:
-Login Link: https://506640589918.signin.aws.amazon.com/console
-Username: FovusAdmin 
-Password: Fovus@password
 
-Website URL: http://fovusstaticwebsite.s3-website-us-east-1.amazonaws.com
+
+
 
 DRIVE FOLDER ITEMS INFO:
 ---------------------------------------------------------------------------------------------------
