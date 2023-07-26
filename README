@@ -28,7 +28,7 @@ RESOURCES INFO:
 | dbconnectfunction           | Gets information from website and passes to the lambda function.        |       API                 |
 | dbconnectfunction           | Get the details from APIGateway and creates an entry in DynamoDb table  |       Lambda              |
 | dynamodbstreamprocess       | Gets trigger by DynamoDB INSERT event and creates a VM                  |       Lambda              |
-| appendtextdata              | Stores the data from website                                            |       DynamoDB Table      |
+| appendtextdata              | Stores the data from website                                            |       DynamoDB            |
 -------------------------------------------------------------------------------------------------------------------------------------
 
 
