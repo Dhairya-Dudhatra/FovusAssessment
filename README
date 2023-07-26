@@ -20,16 +20,16 @@ DRIVE FOLDER ITEMS INFO:
 
 
 RESOURCES INFO:
----------------------------------------------------------------------------------------------------------------------------------
-|           Names             |         Job                                                             |    Resources-Type      |
----------------------------------------------------------------------------------------------------------------------------------
-| fovusstaticwebsite          | Host a static website                                                   |    S3 Bucket           | 
-| fovuschallengeinputbucket   | Stores script.sh and other files which will be uploaded from website.   |    S3 Bucket           |
-| dbconnectfunction           | Gets information from website and passes to the lambda function.        |    API                 |
-| dbconnectfunction           | Get the details from APIGateway and creates an entry in DynamoDb table  |    Lambda              |
-| dynamodbstreamprocess       | Gets trigger by DynamoDB INSERT event and creates a VM                  |    Lambda              |
-| appendtextdata              | Stores the data from website                                            |    DynamoDB            |
----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+|           Names             |         Job                                                             |    Resources-Type | 
+----------------------------------------------------------------------------------------------------------------------------
+| fovusstaticwebsite          | Host a static website                                                   |    S3 Bucket      | 
+| fovuschallengeinputbucket   | Stores script.sh and other files which will be uploaded from website.   |    S3 Bucket      |
+| dbconnectfunction           | Gets information from website and passes to the lambda function.        |    API            |
+| dbconnectfunction           | Get the details from APIGateway and creates an entry in DynamoDb table  |    Lambda         |
+| dynamodbstreamprocess       | Gets trigger by DynamoDB INSERT event and creates a VM                  |    Lambda         |
+| appendtextdata              | Stores the data from website                                            |    DynamoDB       |
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 # RESOURCES SETUP:
