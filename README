@@ -13,9 +13,11 @@ DRIVE FOLDER ITEMS INFO:
 |   dbconnectfunction         |   Lambda js code which creates an entry in table                  |
 |   dynamodbstreamprocess     |   Lambda js code which gets ID and creates a VM                   |
 |   script.sh		       |   Shell script which appends string and updates table and bucket. |
---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 RESOURCES INFO:
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -30,7 +32,7 @@ RESOURCES INFO:
 -------------------------------------------------------------------------------------------------------------------------------------
 
 
-RESOURCES SETUP:
+# RESOURCES SETUP:
 
 S3:
 fovusstaticwebsite - Enable versioning
